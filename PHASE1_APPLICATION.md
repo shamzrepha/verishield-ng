@@ -88,13 +88,12 @@
   > 4. Strict Responsible-AI & zero-PII guardrails: Strictly nonpartisan, never tabulates or declares election results, never auto-rejects any record without human review, and operates exclusively on synthetic and public data.`
 
 - **What stage is your idea currently at? `*` (`idea_stage[]`):**
-  - Choose **`Early concept`** if submitting today before deploying/pushing the working MVP.
-  - *(Note: Choose **`Prototype`** ONLY if you actually push & test the working scaffold/MVP we build next and attach the working repo/demo URL—never misrepresent prototype readiness.)*
+  > Select **`Prototype`** *(working codebase & tested MVP verified and pushed to GitHub)*.
 
 - **Do you already have a prototype? (`has_prototype`):**
-  > Select **`No`** *(unless you push and verify the initial working prototype repo before submitting by Nov 12, 11:59 PM WAT, in which case select `Yes` and paste the public GitHub/demo link below).*
+  > Select **`Yes`**
 
-- **If yes, prototype/project link (`prototype_link`):** `[Leave blank if No, or paste verified GitHub repo URL if pushed]`
+- **If yes, prototype/project link (`prototype_link`):** `https://github.com/shamzrepha/verishield-ng` *(or paste your live Render URL after clicking Blueprint Deploy below)*
 
 ---
 
