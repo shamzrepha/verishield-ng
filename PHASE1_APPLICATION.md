@@ -93,7 +93,7 @@
 - **Do you already have a prototype? (`has_prototype`):**
   > Select **`Yes`**
 
-- **If yes, prototype/project link (`prototype_link`):** `https://github.com/shamzrepha/verishield-ng` *(or paste your live Render URL after clicking Blueprint Deploy below)*
+- **If yes, prototype/project link (`prototype_link`):** `https://verishield-ng.onrender.com/` *(Live web & PWA demo; public source repository: `https://github.com/shamzrepha/verishield-ng`)*
 
 ---
 
