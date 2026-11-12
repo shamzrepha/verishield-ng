@@ -1,9 +1,12 @@
 # VeriShield NG — Unified AI Defense for `#AI4Elections` (2026–2027)
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/shamzrepha/verishield-ng)
+
 > **Event:** `#AI4Elections` Hackathon (Rise Networks × INEC × Meta, Google, Microsoft; supported by MacArthur Foundation & Luminate)  
 > **Phase 1 Application Deadline:** **Thursday, Nov 12, 2026 at 11:59 PM WAT** (`https://ai4elections.risenetworks.org`)  
 > **Grand Finale & Showcase:** **December 16, 2026** (Lagos) — working functional prototype required  
-> **Election Context:** Nigeria General Elections — Jan 16, 2027 (Presidential/NASS) & Feb 6, 2027 (Governorship/State)
+> **Election Context:** Nigeria General Elections — Jan 16, 2027 (Presidential/NASS) & Feb 6, 2027 (Governorship/State)  
+> **Live Interfaces:** `/` (NDPA 2023 Gateway) · `/citizen` (Installable Mobile PWA: Civic AI Chat, Live Fact-Check, Opt-in GPS Polling Unit & Shake Shield, Multi-Witness "I'm Safe" Interview) · `/screening` (INEC Module B Intake Screening Desk)
 
 ---
 
