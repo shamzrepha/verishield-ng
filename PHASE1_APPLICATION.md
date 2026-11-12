@@ -8,38 +8,38 @@
 
 ## Step 1 of 5 — Personal Information & Your Background
 
-- **First Name `*` (`first_name`):** `[Your First Name]`
-- **Last Name `*` (`last_name`):** `[Your Last Name]`
-- **Email Address `*` (`email`):** `[Your Email Address]`
-- **Phone Number `*` (`phone`):** `[+234 ...]`
+- **First Name `*` (`first_name`):** `Shamaryah`
+- **Last Name `*` (`last_name`):** `Udeakpu`
+- **Email Address `*` (`email`):** `shamzypre14@gmail.com`
+- **Phone Number `*` (`phone`):** `+234 913 393 2677`
 - **Country of Residence `*` (`country`):** `Nigeria`
-- **State of Residence `*` (`state`):** `[Your State, e.g. Lagos / Federal Capital Territory]`
-- **City `*` (`city`):** `[Your City]`
+- **State of Residence `*` (`state`):** `Imo`
+- **City `*` (`city`):** `Owerri`
 - **What best describe your application? `*` (`application_type`):** `Team`
 
 ### Your Background
 
-- **Tell us about your experience `*` (`experience_summary`):** *(Customize with your true background)*
-  > `[I am / We are]` software and AI builder`[s]` experienced in building applied Python backends, computer-vision/audio signal-processing pipelines, and accessible web applications for civic and public-interest use cases. `[Insert 1-2 concrete sentences on your real experience, e.g., backend engineering, data science/ML, cybersecurity, or civic tech projects you have shipped.]`
+- **Tell us about your experience `*` (`experience_summary`):**
+  > `I am a Mechatronics Engineering student at the Federal University of Technology, Owerri (FUTO), where I serve as the Google Developer Group (GDG) Embedded Systems & Robotics Lead and Lead of the RAIN tech community. My engineering background spans Python backend/AI systems, voice-enabled assistive tools, computer-vision workflows, and hardware prototyping—including leading our team to 1st & 3rd place at CODET '26 (South-East Zone, National Finalist) and placing Top 10 (5th) at the FUTO AI Builders Pitch Party.`
 
 - **Primary Area of Expertise `*` (`primary_expertise`):**
-  > `Artificial Intelligence, Multimedia Forensics & Accessible Civic Software Engineering` *(or customize to match your exact primary field)*
+  > `Mechatronics Engineering, Applied AI, Audio/Visual Signal Processing & Accessible Software`
 
-- **Years of Experience `*` (`years_experience`):** `[Integer, e.g., 3]`
-- **Current Role / Occupation `*` (`current_role`):** `[Your exact role, e.g., Software Engineer / AI Engineer / Student Researcher]`
-- **Organisation / Institution `*` (`organization`):** `[Your University / Company / Team Org]`
-- **Highest level of Education `*` (`education_level`):** `[e.g., Bachelor's Degree in Computer Science]`
-- **Academic / Professional Field `*` (`academic_field`):** `[e.g., Computer Science / Artificial Intelligence / Software Engineering]`
+- **Years of Experience `*` (`years_experience`):** `4` *(adjust integer if needed, e.g., counting from 2020–2026 Tech Agents / engineering builds)*
+- **Current Role / Occupation `*` (`current_role`):** `Mechatronics Engineering Student · GDG Embedded Systems & Robotics Lead & RAIN Lead (FUTO)`
+- **Organisation / Institution `*` (`organization`):** `Federal University of Technology, Owerri (FUTO)`
+- **Highest level of Education `*` (`education_level`):** `Undergraduate (B.Eng. Mechatronics Engineering in progress; Senior Secondary Certificate)`
+- **Academic / Professional Field `*` (`academic_field`):** `Mechatronics Engineering & Applied Artificial Intelligence`
 
 ---
 
 ## Step 2 of 5 — Your Skills & Your Interest
 
-- **Skills (Use (,) after each skill) `*` (`skills`):** *(Remove any skill your team doesn't actually have)*
-  > `Python, FastAPI, Audio Signal Processing, Image Forensics, Optical Character Recognition, Retrieval-Augmented Verification, Multilingual Text-to-Speech, Accessible Web Design (WCAG), Anomaly Detection, Cybersecurity`
+- **Skills (Use (,) after each skill) `*` (`skills`):**
+  > `Python, C / C++, FastAPI, Speech & Voice AI, Sensor Data Handling, Audio Signal Processing, Image Forensics, Retrieval-Augmented Verification, Accessible Web Design (WCAG), Embedded Systems & Robotics, Systems Debugging`
 
-- **Tell us about your relevant experience `*` (`relevant_experience`):** *(Customize with real projects/training)*
-  > `[Describe 1-2 specific, truthful projects where you built APIs, ML models, media-processing tools, or accessible interfaces, plus why your team can deliver a working prototype before December 2026.]`
+- **Tell us about your relevant experience `*` (`relevant_experience`):**
+  > `I have shipped several applied AI and accessible systems projects directly relevant to VeriShield NG: (1) EcoVital—an air-quality tool that explains measurements out loud with actionable spoken guidance; (2) Scout Screener—a human-in-the-loop screening tool built around the "AI suggests, human decides" audit principle; (3) AutoDiag-Point—a phone-powered computer-vision reader for rapid diagnostic tests designed for low-connectivity settings; and (4) SunrootLearn—an AI tutor and virtual lab. Combined with leading student engineering communities at FUTO and winning CODET '26 (1st & 3rd place), I have built and deployed the live VeriShield NG prototype ahead of the Dec 16 showcase.`
 
 - **Which challenge track interests you most? `*` (`challenge_track`):**
   > `AI and Trustworthy Electoral Information`
@@ -88,25 +88,25 @@
   > 4. Strict Responsible-AI & zero-PII guardrails: Strictly nonpartisan, never tabulates or declares election results, never auto-rejects any record without human review, and operates exclusively on synthetic and public data.`
 
 - **What stage is your idea currently at? `*` (`idea_stage[]`):**
-  > Select **`Prototype`** *(working codebase & tested MVP verified and pushed to GitHub)*.
+  > Select **`Working prototype`** *(matches the live radio option on the portal; live web/PWA app + tested API & forensics benchmark already deployed)*.
 
 - **Do you already have a prototype? (`has_prototype`):**
   > Select **`Yes`**
 
-- **If yes, prototype/project link (`prototype_link`):** `https://verishield-ng.onrender.com/` *(Live web & PWA demo; public source repository: `https://github.com/shamzrepha/verishield-ng`)*
+- **If yes, prototype/project link (`prototype_link`):** `https://verishield-ng.onrender.com/` *(Live web & PWA demo; public GitHub repo: `https://github.com/shamzrepha/verishield-ng`)*
 
 ---
 
 ## Step 4 of 5 — Applying as an Existing Team & Accessibility
 
-- **Team Name (`team_name`):** `VeriShield NG` *(or your team's chosen name)*
-- **Team Lead (`team_lead`):** `[Your Full Name]`
-- **Team size (`team_size`):** `[Number of team members, e.g., 1 to 4 — check eligibility rules if solo vs team]`
+- **Team Name (`team_name`):** `VeriShield NG`
+- **Team Lead (`team_lead`):** `Shamaryah Udeakpu`
+- **Team size (`team_size`):** `1` *(update to actual member count if applying with co-builders)*
 - **Team Description (`team_description`):**
-  > `A Nigerian civic-AI engineering team dedicated to building VeriShield NG—a novel, nonpartisan, blind-accessible multimodal forensics and civic verification system created specifically for the #AI4Elections Hackathon.`
+  > `VeriShield NG is led by Shamaryah Udeakpu (Mechatronics Engineering student, GDG Embedded Systems & Robotics Lead & RAIN Lead at FUTO, Nigeria) to build a novel, nonpartisan, blind-accessible multimodal forensics, live fact-check, and safety corroboration system created specifically for the #AI4Elections Hackathon.`
 - **Names and Role of Team Members ( use (,) after each name and role) (`team_members`):**
-  > `[Name 1 - Role (e.g., Team Lead & AI/Backend Engineer), Name 2 - Role ...]`
-- **Accessibility & Participation needs (`accessibility_requirements`):** `[Select Yes or No based on your actual needs]`
+  > `Shamaryah Udeakpu - Team Lead, Systems Architecture, Civic AI & Forensics Engineer` *(add `, Co-builder Name - Role` if adding teammates)*
+- **Accessibility & Participation needs (`accessibility_requirements`):** `No` *(select `Yes` only if you personally require accessibility accommodations)*
 
 ---
 
