@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f1f3d" />
+  <title>INEC Intake Screening Desk — VeriShield NG</title>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#screening-main">Skip to main content</a>
+
+  <svg class="sr-only" aria-hidden="true">
+    <symbol id="icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 2L4 5v6.5c0 5.1 3.4 9.7 8 11 4.6-1.3 8-5.9 8-11V5l-8-3z"/>
+      <path d="m9 12 2 2 4-4"/>
+    </symbol>
+    <symbol id="icon-refresh" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="23 4 23 10 17 10"/>
+      <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
+    </symbol>
+    <symbol id="icon-upload" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <polyline points="17 8 12 3 7 8"/>
+      <line x1="12" y1="3" x2="12" y2="15"/>
+    </symbol>
+  </svg>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand-link" href="/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg class="icon"><use href="#icon-shield"/></svg>
+        </span>
+        <span>
+          <span class="brand-title">VeriShield INEC Screening Desk</span><br/>
+          <span class="brand-sub">Module B • Synthetic Portrait &amp; Upload-Burst Review</span>
+        </span>
+      </a>
+
+      <div class="toolbar-controls" role="region" aria-label="Desk navigation and accessibility controls">
+        <button id="toggle-large-text" class="btn btn-sm" type="button" aria-pressed="false">Bigger Words: Off</button>
+        <button id="toggle-high-contrast" class="btn btn-sm" type="button" aria-pressed="false">High Contrast: Off</button>
+        <a href="/citizen" class="btn btn-sm">Citizen App</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="screening-main" class="container stack-md">
+    <div class="banner">
+      <div class="stack-sm">
+        <strong>Human-in-the-Loop Synthetic Intake Safeguard (NDPA 2023)</strong>
+        <p class="small muted" style="margin: 0;">
+          100% synthetic demonstration records — zero real voter PII. Flagged entries pause for human supervisor review and are
+          <strong>never auto-deleted</strong>.
+        </p>
+      </div>
+    </div>
+
+    <section id="module-b-metrics" class="grid-metrics" aria-label="Screening summary metrics"></section>
+
+    <section class="card stack-md" aria-labelledby="queue-heading">
+      <div class="row-wrap" style="justify-content: space-between;">
+        <div>
+          <h1 id="queue-heading" class="h2">Supervisor Review Queue</h1>
+          <p class="small muted" style="margin: 0;">
+            Inspect visual forensics scores, duplicate clusters, and 2 AM operator burst patterns before approving or requesting recapture.
+          </p>
+        </div>
+
+        <div class="row-wrap">
+          <label class="row-wrap small" style="cursor: pointer; font-weight: 700;">
+            <input id="flagged-only-toggle" type="checkbox" style="width: 20px; height: 20px;" />
+            <span>Flagged Only</span>
+          </label>
+          <button id="reload-batch-btn" type="button" class="btn btn-sm">
+            <svg class="icon" aria-hidden="true"><use href="#icon-refresh"/></svg>
+            <span>Reload Batch</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="row-wrap" style="justify-content: space-between;">
+        <div class="field" style="min-width: 240px; flex: 1; max-width: 340px;">
+          <label for="supervisor-alias-input" class="label small">Supervisor Desk Alias (for Audit Log)</label>
+          <input id="supervisor-alias-input" class="input" type="text" value="SUPERVISOR-DESK-01" maxlength="64" style="min-height: 42px;" />
+        </div>
+
+        <details class="details-box" style="flex: 1; margin-top: 0;">
+          <summary>Screen Single Test Portrait Upload</summary>
+          <form id="intake-upload-form" class="row-wrap" style="margin-top: 10px;">
+            <input id="intake-alias-input" class="input" type="text" value="SYNTH-APPLICANT-CUSTOM" placeholder="Synthetic alias" style="max-width: 210px; min-height: 42px;" />
+            <input id="intake-file-input" type="file" accept="image/*" required />
+            <button type="submit" class="btn btn-primary btn-sm">
+              <svg class="icon" aria-hidden="true"><use href="#icon-upload"/></svg>
+              <span>Screen Portrait</span>
+            </button>
+          </form>
+        </details>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Record</th>
+              <th>Station &amp; Operator</th>
+              <th>Forensic Findings</th>
+              <th>Review Status</th>
+              <th>Supervisor Decision</th>
+            </tr>
+          </thead>
+          <tbody id="queue-tbody">
+            <tr><td colspan="5" class="muted">Loading synthetic screening queue...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/shared.js"></script>
+  <script src="/static/screening.js"></script>
+</body>
+</html>

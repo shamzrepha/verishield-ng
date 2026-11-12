@@ -1,0 +1,21 @@
+{
+  "name": "VeriShield NG — Civic AI & Safety Shield",
+  "short_name": "VeriShield NG",
+  "description": "Accessible Nigerian election verification helper, polling unit matcher, Shake-to-Alert shield, and multi-witness corroboration app.",
+  "start_url": "/citizen",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0f1f3d",
+  "background_color": "#fafbfd",
+  "lang": "en-NG",
+  "categories": ["utilities", "government", "news"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

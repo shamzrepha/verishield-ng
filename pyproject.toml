@@ -1,0 +1,10 @@
+[project]
+name = "verishield-ng"
+version = "0.1.0"
+description = "Unified Synthetic-Media & Tamper Forensics Core for #AI4Elections (Module A Citizen Shield & Module B Synthetic Intake Guard)"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

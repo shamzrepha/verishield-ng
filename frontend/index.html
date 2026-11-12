@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f1f3d" />
+  <title>VeriShield NG — Civic AI, Fake-News Check & Election Safety</title>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <svg class="sr-only" aria-hidden="true">
+    <symbol id="icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 2L4 5v6.5c0 5.1 3.4 9.7 8 11 4.6-1.3 8-5.9 8-11V5l-8-3z"/>
+      <path d="m9 12 2 2 4-4"/>
+    </symbol>
+    <symbol id="icon-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+    </symbol>
+    <symbol id="icon-clipboard" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="8" y="2" width="8" height="4" rx="1"/>
+      <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+      <path d="M9 12h6M9 16h4"/>
+    </symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <polyline points="7 10 12 15 17 10"/>
+      <line x1="12" y1="15" x2="12" y2="3"/>
+    </symbol>
+    <symbol id="icon-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="11" width="18" height="11" rx="2"/>
+      <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+    </symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="5" y1="12" x2="19" y2="12"/>
+      <polyline points="12 5 19 12 12 19"/>
+    </symbol>
+  </svg>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand-link" href="/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg class="icon"><use href="#icon-shield"/></svg>
+        </span>
+        <span>
+          <span class="brand-title">VeriShield NG</span><br/>
+          <span class="brand-sub">#AI4Elections Accessible Civic &amp; Electoral Shield</span>
+        </span>
+      </a>
+      <div class="toolbar-controls" role="region" aria-label="Reading accessibility controls">
+        <button id="toggle-large-text" class="btn btn-sm" type="button" aria-pressed="false">Bigger Words: Off</button>
+        <button id="toggle-high-contrast" class="btn btn-sm" type="button" aria-pressed="false">High Contrast: Off</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="container container-narrow stack-md">
+    <section class="card" aria-labelledby="hero-heading">
+      <div class="row-wrap" style="margin-bottom: 10px;">
+        <span class="badge badge-info">Nonpartisan &amp; NDPA 2023 Compliant</span>
+        <span class="badge badge-ok">Installable Mobile PWA</span>
+      </div>
+      <h1 id="hero-heading" class="h1">Simple election truth, fake-news checks, and citizen safety in plain words.</h1>
+      <p class="lead">
+        Built for Nigerian voters of all ages — including elders and blind/low-vision citizens — to check WhatsApp rumors and
+        candidate withdrawal claims in English or Pidgin, find your polling unit, trigger a Shake-to-Alert warning if danger starts,
+        and confirm what really happened through balanced multi-witness interviews.
+      </p>
+      <div class="row-wrap">
+        <a href="/citizen" class="btn btn-primary">
+          <span>Open Citizen App</span>
+          <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>
+        </a>
+        <a href="/screening" class="btn">
+          <span>INEC Screening Desk</span>
+        </a>
+        <button id="pwa-install-btn" type="button" class="btn">
+          <svg class="icon" aria-hidden="true"><use href="#icon-download"/></svg>
+          <span>Install Phone App</span>
+        </button>
+      </div>
+      <p id="pwa-install-hint" class="small muted" style="margin: 10px 0 0;">
+        Works inside any mobile browser or installs onto Android / iPhone home screens with zero app-store downloads.
+      </p>
+    </section>
+
+    <section class="grid-2" aria-label="Choose your workspace">
+      <article class="card role-card">
+        <div class="stack-sm">
+          <div class="role-icon-box" aria-hidden="true">
+            <svg class="icon icon-lg"><use href="#icon-chat"/></svg>
+          </div>
+          <h2 class="h2">1. Citizen Helper &amp; Safety Shield</h2>
+          <p class="muted" style="margin: 0;">
+            Chat or speak naturally (for example: <em>"them say peter obi don drop from election"</em>), attach a suspicious flyer or voice note,
+            hear replies aloud in 5 Nigerian languages, find your nearest Polling Unit, and use Shake-to-Alert + "I'm Safe" witness interviews.
+          </p>
+        </div>
+        <a href="/citizen" class="btn btn-primary">
+          <span>Enter Citizen App</span>
+          <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>
+        </a>
+      </article>
+
+      <article class="card role-card">
+        <div class="stack-sm">
+          <div class="role-icon-box" aria-hidden="true">
+            <svg class="icon icon-lg"><use href="#icon-clipboard"/></svg>
+          </div>
+          <h2 class="h2">2. INEC Intake Screening Desk</h2>
+          <p class="muted" style="margin: 0;">
+            Clean review console for election registration supervisors. Screens synthetic intake portraits using the shared Visual Forensics Core,
+            detects phone-screen recapture spoofs, duplicate faces, and 2 AM upload bursts — always requiring human review decisions.
+          </p>
+        </div>
+        <a href="/screening" class="btn">
+          <span>Open Screening Desk</span>
+          <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>
+        </a>
+      </article>
+    </section>
+
+    <section class="banner" aria-label="AI and NDPA 2023 privacy disclosure">
+      <div class="stack-sm">
+        <div class="row-wrap">
+          <svg class="icon" aria-hidden="true"><use href="#icon-lock"/></svg>
+          <strong>AI Transparency &amp; NDPA 2023 Data Minimization Disclosure</strong>
+        </div>
+        <p class="small muted" style="margin: 0;">
+          <strong>How AI is used:</strong> VeriShield NG uses automated forensics, Nigerian Pidgin/civic intent matching, live public fact-check search
+          (<a href="https://dubawa.org" target="_blank" rel="noopener noreferrer">Dubawa</a> &amp;
+          <a href="https://factcheckhub.com" target="_blank" rel="noopener noreferrer">FactCheckHub</a>), and verified INEC public documents.
+          We never predict election winners or declare results.<br/>
+          <strong>Your privacy:</strong> Zero real voter PII is stored. Inside the Citizen App, GPS location matching and Shake-sensor monitoring are
+          <strong>turned off by default</strong> and require your explicit checkbox consent first. When GPS is used to find your nearest polling unit,
+          coordinates are discarded immediately after matching.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/shared.js"></script>
+</body>
+</html>
